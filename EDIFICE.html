@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EDIFICE | TWS </title>
+    <link rel="stylesheet" href="watchlayout.css">
+  </head>
+  <body>
+    <div class="container">
+            <nav>
+                  <input type="checkbox" id="nav" class="hidden">
+                  <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                  </label>
+                  <div class="logo">
+                        <a href="home.html">THE WATCH STORE</a>
+                  </div>
+                  <div class="nav-wrapper">
+                        <ul>
+                              <li><a href="brands.html">Brands</a></li>
+                              <li><a href="EDIFICE.html">Watches</a></li>
+                              <li><a href="session.php">Login</a></li>
+                              <li><a href="signup.html">Sign Up</a></li>
+                              <li><a href="aboutus.html">About Us</a></li>
+                        </ul>
+                  </div>
+            </nav>
+    </div>
+
+<div class="card">
+  <div class="top-section">
+    <img class="image-container1" id="1" src="EDIFICE1.jpg" alt="">
+    <div class="nav">
+      <img onclick="change_img1(this)" src="EDIFICE1.jpg" alt="">
+      <img onclick="change_img1(this)" src="EDIFICE2.jpg" alt="">
+      <img onclick="change_img1(this)" src="EDIFICE3.jpg" alt="">
+    </div>
+    <div class="price"></div>
+  </div>
+
+  <div class="product-info">
+    <div class="name">Casio Edifice - EFR-539BK-1AVUDF (EX187)</div>
+    <div class="dis">₹10,995.00</div>
+    <a class="btn" href="PURCHASED.HTML">Buy Now</a>
+  </div>
+
+<div class="card" style="margin-left: 500px;">
+  <div class="top-section">
+    <img class="image-container2" id="2" src="EDIFICE4.jpg" alt="">
+    <div class="nav">
+      <img onclick="change_img2(this)" src="EDIFICE4.jpg" alt="">
+      <img onclick="change_img2(this)" src="EDIFICE5.jpg" alt="">
+      <img onclick="change_img2(this)" src="EDIFICE6.jpg" alt="">
+    </div>
+    <div class="price"></div>
+  </div>
+
+  <div class="product-info">
+    <div class="name">Casio Edifice  - EF-558SG-1AVDF (ED439)</div>
+    <div class="dis">₹9,995.00</div>
+    <a class="btn" href="PURCHASED.HTML">Buy Now</a>
+  </div>
+
+<div class="card" style="margin-left: 500px;">
+  <div class="top-section">
+    <img class="image-container3" id="3" src="EDIFICE7.jpg" alt="">
+    <div class="nav">
+      <img onclick="change_img3(this)" src="EDIFICE7.jpg" alt="">
+      <img onclick="change_img3(this)" src="EDIFICE8.jpg" alt="">
+      <img onclick="change_img3(this)" src="EDIFICE9.jpg" alt="">
+    </div>
+    <div class="price"></div>
+  </div>
+
+  <div class="product-info">
+    <div class="name">Casio Edifice - EFR-556DB-2AVUDF (EX362)</div>
+    <div class="dis">₹12,995.00</div>
+    <a class="btn" href="PURCHASED.HTML">Buy Now</a>
+  </div>
+
+</div>
+  <script type="text/javascript">
+    var container1 = document.getElementById("1");
+    function change_img1(image) {
+      container1.src = image.src;
+    }
+  </script>
+
+   <script type="text/javascript">
+    var container2 = document.getElementById("2");
+    function change_img2(image) {
+      container2.src = image.src;
+    }
+  </script>
+
+  <script type="text/javascript">
+    var container3 = document.getElementById("3");
+    function change_img3(image) {
+      container3.src = image.src;
+    }
+  </script>
+
+  </body>
+</html>

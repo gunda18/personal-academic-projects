@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  font-weight: 400;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+      box-sizing: border-box;
+}
+
+html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+}
+
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  text-align: center;
+  float: right;
+  margin-right: 100px;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+
+.box1{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 80px;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box1 img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box1 h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box1 h2{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box1 h3{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box1 p{
+  text-align: justify;
+}
+.box1 li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box1 li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box1 li a:hover{
+  color: #b9b9b9;
+}

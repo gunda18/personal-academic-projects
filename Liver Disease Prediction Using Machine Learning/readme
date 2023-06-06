@@ -1,0 +1,4 @@
+This folder contains 3 subfolders:
+Code Dataset - contains the dataset obtained from kaggle "https://www.kaggle.com/datasets/gauravduttakiit/indian-liver-patient"
+Code Notebook - The analysis and modelling done on Jupyter Notebook
+Code With GUI - The above code repurposed in spyder for having both frontend and backend

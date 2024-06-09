@@ -1,0 +1,5 @@
+Bidder Name,Capacity,Cost,History,Score,Allocated,Total Cost
+Bidder1,1000,35,10,19000,1000,35000
+Bidder3,900,35,5,16800,889,31115
+Bidder2,500,50,0,8000,500,25000
+Bidder4,300,30,0,4800,300,9000
